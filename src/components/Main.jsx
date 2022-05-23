@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, "."];
-const firstSide = [];
-const digits = [];
+let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, "."];
+let firstSide = [];
+let digits = [];
+
 function Main() {
   
   const [Display, setDisplay] = useState("");
