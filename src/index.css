@@ -4,9 +4,6 @@
   height: 85vh;
   background-color: aqua;
   margin: auto;
-}
-
-.container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -19,18 +16,17 @@
     ". . . .";
 }
 
-.num{
- 
+.num {
   background-color: deeppink;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.display{
+.display {
   min-width: 300px;
   min-height: 100px;
   background-color: red;
   width: 90%;
   margin: auto;
-  padding:10px
+  padding: 10px;
 }
